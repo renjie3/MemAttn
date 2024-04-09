@@ -1,0 +1,7 @@
+results/
+__pycache__/
+rewrite_param.py
+*npy
+*log
+plot/
+results.txt
