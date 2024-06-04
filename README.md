@@ -10,7 +10,13 @@ diffusers, pytorch, transformers
 
 ## How to use
 
+### Detection
+
 Detailed CMD of generation and detection can be found in **local_cmd.sh**
+
+### Mitigation
+
+Detailed CMD of mitigation can be found in **local_cmd_inference_time_mitigation.sh**
 
 ## Cite
 ```
