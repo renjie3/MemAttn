@@ -1,8 +1,8 @@
 # Generating images and save attention entropy
-# MY_CMD="python text2img.py --prompt prompt/group_nomem500 --float16 --output_name debug --save_numpy"
+# MY_CMD="python text2img.py --prompt prompt/group_nomem500 --output_name debug --save_numpy"
 
 # Merging results
-# MY_CMD="python read_numpy.py --mode merge_small --n_mem 500 --n_step 50 --merge_input ./results/local_group_nomem500_detect_small_seed0 --merge_output ./results/local_group_nomem500_detect_small_seed0"
+# MY_CMD="python read_results.py --mode merge_small --n_mem 500 --n_step 50 --merge_input ./results/local_group_nomem500_detect_small_seed0 --merge_output ./results/local_group_nomem500_detect_small_seed0"
 
 # Detection results
 # MY_CMD="python detect.py --mode E --mem_input ./results/local_sd1_mem_not_n_detect_small_seed0 --nomem_input ./results/local_group_nomem500_detect_small_seed0"
